@@ -1,4 +1,5 @@
-<h1 align="center">Consuming RESTful API of Dragon Ball Super ☄️</h1>
+<h1 align="center"><img width="30px" src="https://github.com/JohnMata0427/Laboratorio-02/assets/150484680/e534d06f-ee2d-4d30-aebc-8433bcf92380"> Consuming Dragon Ball Super RESTful API <img width="30px" src="https://github.com/JohnMata0427/Laboratorio-02/assets/150484680/e534d06f-ee2d-4d30-aebc-8433bcf92380"></h1>
+
 
 - **Name of Developer:** John Mata
 - **Subject:** Web Applications Development
