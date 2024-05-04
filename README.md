@@ -1,4 +1,4 @@
-<h1 aling="center">Consuming RESTful API of Dragon Ball Super☄️</h1>
+<h1 align="center">Consuming RESTful API of Dragon Ball Super☄️</h1>
 
 Link of Deploy: https://johnmata0427.github.io
 
