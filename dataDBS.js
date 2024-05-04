@@ -13,7 +13,7 @@ const btnRotar = () => {
     let primerPersonaje = Math.floor(Math.random() * 77 + 1)
     let segundoPersonaje = Math.floor(Math.random() * 77 + 1)
 
-    while ((primerPersonaje > 44 && primerPersonaje < 63 && primerPersonaje == 41)) {
+    while ((primerPersonaje > 44 && primerPersonaje < 63) || primerPersonaje == 41 || primerPersonaje == 36) {
         primerPersonaje = Math.floor(Math.random() * 77 + 1)
     }
     
@@ -21,7 +21,7 @@ const btnRotar = () => {
         segundoPersonaje = Math.floor(Math.random() * 77 + 1)
     }
 
-    while ((segundoPersonaje > 44 && segundoPersonaje < 63 && segundoPersonaje == 41)) {
+    while ((segundoPersonaje > 44 && segundoPersonaje < 63) || segundoPersonaje == 41 || segundoPersonaje == 36){
         segundoPersonaje = Math.floor(Math.random() * 77 + 1)
     }
 
