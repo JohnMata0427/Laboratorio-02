@@ -1,4 +1,4 @@
-<h1 align="center">Consuming RESTful API of Dragon Ball Super☄️</h1>
+<h1 align="center">Consuming RESTful API of Dragon Ball Super ☄️</h1>
 
 - **Name of Developer:** John Mata
 - **Subject:** Web Applications Development
