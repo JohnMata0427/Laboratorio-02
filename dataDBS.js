@@ -15,12 +15,19 @@ const obtenerPersonaje = async (id, number) => {
 }
 
 const btnRotar = () => {
-    let primerPersonaje = Math.floor(Math.random() * 78)
-    let segundoPersonaje = Math.floor(Math.random() * 78)
+    let primerPersonaje = Math.floor(Math.random() * 77 + 1)
+    let segundoPersonaje = Math.floor(Math.random() * 77 + 1)
 
-    while (primerPersonaje === segundoPersonaje || (primerPersonaje > 45 && primerPersonaje < 62) || (segundoPersonaje > 45 && segundoPersonaje < 62)) {
-        primerPersonaje = Math.floor(Math.random() * 78)
-        segundoPersonaje = Math.floor(Math.random() * 78)
+    while ((primerPersonaje > 45 && primerPersonaje < 62)) {
+        primerPersonaje = Math.floor(Math.random() * 77 + 1)
+    }
+    
+    while (primerPersonaje === segundoPersonaje) {
+        segundoPersonaje = Math.floor(Math.random() * 77 + 1)
+    }
+
+    while ((segundoPersonaje > 45 && segundoPersonaje < 62)) {
+        segundoPersonaje = Math.floor(Math.random() * 77 + 1)
     }
 
     obtenerPersonaje(primerPersonaje, 1)
