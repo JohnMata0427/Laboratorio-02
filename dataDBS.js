@@ -40,7 +40,7 @@ const colocarPersonaje = (data, number) => {
     let transformation = Math.floor(Math.random() * data.transformations.length)
 
     if (transformation > 0) {
-        item.getElementsByTagName('img')[0].setAttribute('src', data.transformations[transformation].image)
+        item.getElementsByTagName('img')[0].setAttribute('src', data.transformations[transformation].image + '?' + new Date().getTime()) // Para que no se quede en cache
         item.getElementsByTagName('p')[0].innerText = data.transformations[transformation].name
         item.getElementsByTagName('p')[1].innerHTML = `<strong>Ki:</strong> ${data.transformations[transformation].ki}`
     } else {
